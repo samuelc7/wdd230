@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header, footer {
+    background-color: wheat;
+}
+
+header, footer, main {
+    max-width: 36rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#profile-pic {
+    width: 150px;
+    height: auto;
+}
