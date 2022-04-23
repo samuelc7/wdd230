@@ -30,6 +30,10 @@ li {
 
 footer {
     margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    flex-direction: column;
 }
 
 header, footer, #container {
@@ -67,7 +71,6 @@ header, footer, #container {
 
 #modified-container {
     color: rgb(33, 113, 50);
-    text-indent: 1rem;
     font-style: italic;
 }
 
