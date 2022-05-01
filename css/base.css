@@ -28,6 +28,11 @@ li {
     margin-top: .75rem;
 }
 
+main {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
 footer {
     margin-top: 2rem;
     display: flex;
