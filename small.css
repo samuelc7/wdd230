@@ -1,0 +1,36 @@
+@media only screen and (max-width: 600px) {
+
+    header {
+        background-color: blue;
+        color: white;
+    }
+
+    h5 {
+        margin: auto;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    li {
+        margin: auto;
+        margin-bottom: 1em;
+    }
+    main {
+        flex-direction: column;
+    }
+    section {
+        display: block;
+        width: 300px;
+        align-items: center;
+    }
+
+    footer {
+        background-color: blue;
+        color: white;
+    }
+
+}
+

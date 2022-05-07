@@ -1,0 +1,43 @@
+header {
+    background-color: blue;
+    color: white;
+}
+h1 {
+    text-align: center;
+}
+
+h2 {
+    display: block;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    margin: auto;
+    margin-bottom: 1em;
+    color: white;
+}
+
+li::after {
+    color: white;
+}
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+section {
+    display: block;
+    width: 300px;
+    margin: 2rem    ;    
+}
+
+footer {
+    background-color: blue;
+    color: white;
+}
