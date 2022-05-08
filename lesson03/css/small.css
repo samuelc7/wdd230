@@ -1,0 +1,15 @@
+@media only screen and (max-width: 600px) {
+  
+    nav ul {
+        flex-direction: column;
+        height: 150px;
+        padding: 0px;
+    }
+
+    a:link {
+        margin-bottom: .2rem;
+        width: 10rem;
+    }
+
+    
+}

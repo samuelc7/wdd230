@@ -1,0 +1,147 @@
+nav {
+    margin-top: -10px;
+}
+
+
+nav ul {
+    background-color: #1E152A;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding: .25rem;
+    margin-top: auto;
+}
+
+h2 {
+    background-color: #1E152A;
+    color: white;
+    padding: 3px;
+    text-align: center;
+}
+
+nav li {
+    display: block;
+    margin: auto;
+    text-align: center;
+    list-style-type: none;
+}
+
+a:link {
+    display: block;
+    text-decoration: none;
+    background-color: grey;
+    padding: .5rem;
+    width: 100%;
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+a:hover {
+    color: lightblue;
+}
+
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 10px;
+}
+
+main {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgrey;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    padding-top: 4px;
+    background-color: #1E152A;
+    color: white;
+    height: 52px;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+.intro {
+    display: block;
+    background-color: aliceblue;
+    width: 50%;
+}
+
+.domine-sample {
+    font-family: 'Domine', serif;
+    font-size: 35px;
+}
+
+.cg-sample {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 20px;
+}
+
+.cg-sample-white {
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+    background-color: grey;
+    font-size: 20px;
+}
+
+.color1 {
+    background-color: #1E152A;
+    color: white;
+    padding: 3rem;
+    text-align: center;
+    font-size: 25px;
+}
+.color2 {
+    background-color: #4E6766;
+    color: white;
+    padding: 3rem;
+    text-align: center;
+    font-size: 25px;
+    border: 1px white solid;
+}
+.color3 {
+    background-color: #5AB1BB;
+    color: white;
+    padding: 3rem;
+    text-align: center;
+    font-size: 25px;
+}
+.color4 {
+    background-color: #A5C882;
+    padding: 3rem;
+    text-align: center;
+    font-size: 25px;
+}
+.color5 {
+    background-color: #F7DD72;
+    padding: 3rem;
+    text-align: center;
+    font-size: 25px;
+}
+
+.city-image {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.logo-img {
+    width: 100px;
+    height: auto;
+}
