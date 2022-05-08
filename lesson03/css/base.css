@@ -1,7 +1,10 @@
+html {
+    height: 600px;
+}
+
 nav {
     margin-top: -10px;
 }
-
 
 nav ul {
     background-color: #1E152A;
@@ -44,8 +47,6 @@ a:hover {
     color: lightblue;
 }
 
-
-
 table {
     border-collapse: collapse;
     width: 100%;
@@ -65,9 +66,9 @@ main {
 }
 
 footer {
-    left: 0;
     bottom: 0;
     position: absolute;
+    margin-top: 15px;
     padding-top: 4px;
     background-color: #1E152A;
     color: white;
@@ -135,6 +136,7 @@ footer {
 }
 
 .city-image {
+    height: 300px;
     width: 100%;
     background-color: white;
     padding-top: 10px;
