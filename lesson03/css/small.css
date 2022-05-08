@@ -11,5 +11,28 @@
         width: 10rem;
     }
 
+    .city-image {
+        height: auto;
+    }
+
+    .color1 {
+        padding: 2rem;
+    }
+    .color2 {
+        padding: 2rem;
+    }
+    .color3 {
+       padding: 2rem;
+    }
+    .color4 {
+       padding: 2rem;
+    }
+    .color5 {
+        padding: 2rem;
+    }
+
+    .target-aud {
+        height: 300px;
+    }
     
 }
