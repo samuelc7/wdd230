@@ -10,6 +10,7 @@ nav ul {
     flex-direction: row;
     padding: .25rem;
     margin-top: auto;
+    height: 52px;
 }
 
 h2 {
@@ -64,8 +65,9 @@ main {
 }
 
 footer {
-    position: absolute;
+    left: 0;
     bottom: 0;
+    position: absolute;
     padding-top: 4px;
     background-color: #1E152A;
     color: white;
@@ -73,8 +75,6 @@ footer {
     text-align: center;
     width: 100%;
 }
-
-
 
 .intro {
     display: block;
@@ -136,7 +136,6 @@ footer {
 
 .city-image {
     width: 100%;
-    height: auto;
     background-color: white;
     padding-top: 10px;
 }
