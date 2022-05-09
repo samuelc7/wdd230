@@ -13,7 +13,7 @@ nav ul {
     flex-direction: row;
     padding: .25rem;
     margin-top: auto;
-    height: 52px;
+    height: 42px;
 }
 
 h2 {
@@ -71,7 +71,7 @@ footer {
     padding-top: 4px;
     background-color: #1E152A;
     color: white;
-    height: 52px;
+    height: 42px;
     text-align: center;
     width: 100%;
 }
