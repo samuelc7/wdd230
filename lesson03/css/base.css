@@ -48,7 +48,6 @@ a:hover {
 }
 
 table {
-    border-collapse: collapse;
     width: 100%;
 }
 
@@ -68,7 +67,7 @@ main {
 footer {
     bottom: 0;
     position: absolute;
-    margin-top: 15px;
+    margin-top: 30px;
     padding-top: 4px;
     background-color: #1E152A;
     color: white;
@@ -103,14 +102,14 @@ footer {
 .color1 {
     background-color: #1E152A;
     color: white;
-    padding: 3rem;
+    padding: 2rem;
     text-align: center;
     font-size: 25px;
 }
 .color2 {
     background-color: #4E6766;
     color: white;
-    padding: 3rem;
+    padding: 2rem;
     text-align: center;
     font-size: 25px;
     border: 1px white solid;
@@ -118,19 +117,19 @@ footer {
 .color3 {
     background-color: #5AB1BB;
     color: white;
-    padding: 3rem;
+    padding: 2rem;
     text-align: center;
     font-size: 25px;
 }
 .color4 {
     background-color: #A5C882;
-    padding: 3rem;
+    padding: 2rem;
     text-align: center;
     font-size: 25px;
 }
 .color5 {
     background-color: #F7DD72;
-    padding: 3rem;
+    padding: 2rem;
     text-align: center;
     font-size: 25px;
 }
@@ -145,4 +144,9 @@ footer {
 .logo-img {
     width: 100px;
     height: auto;
+}
+
+.target-audience {
+    padding-bottom: 15px;
+    font-size: 14px;
 }
