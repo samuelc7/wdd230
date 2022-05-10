@@ -67,7 +67,7 @@ main {
 
 footer {
     bottom: 0;
-    position: absolute;
+    position: fixed;
     margin-top: 30px;
     padding-top: 4px;
     background-color: #1E152A;
@@ -136,7 +136,7 @@ footer {
 }
 
 .city-image {
-    height: 300px;
+    height: auto;
     width: 100%;
     background-color: white;
     padding-top: 10px;
