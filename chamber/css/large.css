@@ -1,0 +1,49 @@
+@media only screen and (min-width: 800px) {
+    main {
+        display: grid;
+        grid-template-columns: 1fr 3fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+
+    .events {
+       grid-row: 1 / 4;
+       height: auto;
+    }
+    .gWar {
+        grid-row: 1 / 3;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gWar div {
+        padding: 15%;
+        width: 70%;
+        margin: auto;
+        border: .5px solid lightgray;
+    }
+
+    .welcome {
+        grid-column: 3 / 4;
+        grid-row: 1 / 2;
+        height: auto;
+    }
+
+    .weather {
+        height: auto;
+    }
+
+    .first-div, .second-div {
+        height: 30%;
+    }
+
+    .logo-title h1 {
+        margin-right: 5rem;
+        margin-left: 1rem;
+        width: 15rem;
+        font-size: large;
+    }
+    
+    
+}
