@@ -119,7 +119,9 @@ button {
 .menu li {
     display: none;
 }
-
+.responsive li {
+    display: block;
+}
 
 
 

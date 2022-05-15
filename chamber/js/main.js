@@ -33,3 +33,8 @@ var nav = document.querySelector("nav");
 button.addEventListener("click", ()=>  {
     nav.classList.toggle('responsive')},
     false);
+
+window.onresize = ()=> {
+    if (window.innerWidth > 760) 
+    nav.classList.remove("responsive")
+};
