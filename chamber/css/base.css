@@ -25,6 +25,10 @@ header li {
     list-style-type: none;
 }
 
+header {
+    margin-top: -12px;
+}
+
 header p {
     text-align: center;
     margin-top: -.5rem;
