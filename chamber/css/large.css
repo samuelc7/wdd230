@@ -45,5 +45,17 @@
         font-size: large;
     }
     
+    .menu {
+        display: flex;
+    }
+
+    .menu li {
+        display: block;
+        padding-top: 2rem;
+    }
+
+    .menu a {
+        text-align: center;
+    }
     
 }
