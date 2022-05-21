@@ -26,15 +26,15 @@ var months = [
 
 var formattedDate = `${days[date.getDay()]}, ${date.getDate()} ${months[date.getMonth()]} ${date.getFullYear()}`;
 element.innerHTML = formattedDate;
+element.style.color = "white";
 
-var button = document.getElementById("hamburger");
-button.style.display = "block";
-var nav = document.querySelector("nav");
-button.addEventListener("click", ()=>  {
-    nav.classList.toggle('responsive')},
-    false);
+const button = document.getElementById("hamburger");
+button.style.display = "none";
 
 window.onresize = ()=> {
-    if (window.innerWidth > 760) 
-    nav.classList.remove("responsive")
+    if (window.innerWidth < 800) 
+    button.style.display = "block";
+    if (window.innerWidth > 800) 
+    button.style.display = "none";
 };
+

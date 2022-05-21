@@ -5,6 +5,17 @@
         grid-template-rows: 1fr 1fr;
     }
 
+    img {
+        width: 10rem;
+        height: auto;
+    }
+
+    header p {
+        padding: .5rem;
+        width: 85%;
+        margin-left: 1rem;
+        margin-right: auto;
+    }
 
     .events {
        grid-row: 1 / 4;
@@ -51,11 +62,21 @@
 
     .menu li {
         display: block;
-        padding-top: 2rem;
     }
 
     .menu a {
         text-align: center;
+    }
+
+    .hamburger-menu {
+        display: none;
+    }
+
+    .logo h1 {
+        font-size: 2rem;
+        margin-bottom: auto;
+        padding: .5rem;
+        color: white;
     }
     
 }
