@@ -11,10 +11,10 @@
     }
 
     header p {
-        padding: .5rem;
-        width: 85%;
-        margin-left: 1rem;
-        margin-right: auto;
+        margin-left: 12px;
+        max-width: none;
+        width: 75%;
+        position: inherit;
     }
 
     .events {
@@ -62,15 +62,33 @@
 
     .menu li {
         display: block;
+        margin-right: auto;
+        position: inherit;
+        margin-bottom: -2rem;
+        background-color: lightgray;
+        width: 7rem;
+        text-align: center;
+        margin-top: 1rem;
+        padding: 2px;
+    }
+
+    .menu li:first-child {
+        display: none;
+    }
+
+    .menu li:hover {
+        background-color: white;
     }
 
     .menu a {
         text-align: center;
+        
     }
 
-    .hamburger-menu {
-        display: none;
-    }
+    .menu a:link { text-decoration: none; }
+    .menu a:visited { text-decoration: none; }
+    .menu a:hover { text-decoration: none; }
+    .menu a:active { text-decoration: none; }
 
     .logo h1 {
         font-size: 2rem;
@@ -78,5 +96,20 @@
         padding: .5rem;
         color: white;
     }
+
+    .facebook-logo, .twitter-logo {
+        height: auto;
+        width: 50px;
+        max-height: 45px;
+        max-width: 37px;
+        border-radius: 1rem;
+        margin-left: 0px;
+    }
+
+    .social-media ul {
+        position:static;
+        margin-left: 0px;
+    }
+    
     
 }

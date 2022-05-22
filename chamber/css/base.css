@@ -2,16 +2,14 @@
     font-size: 12px;
 }
 
-header ul {
-    display: flex;    
-}
-
 header  {
     display: flex;
     background-color: #1E152A;
     color: white;
     border-radius: 1rem;
     padding-bottom: 1px;
+    margin-top: -12px;
+    width: 100%;
 }
 
 img {
@@ -20,18 +18,8 @@ img {
 }
 
 header li {
-    margin: 1rem;
-    width: 100%;
+    margin: 6px;
     list-style-type: none;
-    background-color: #F0F5F1;
-    color: #1E152A;
-    text-align: center;
-    height: 1rem;
-    padding: 8px;
-}
-
-header {
-    margin-top: -12px;
 }
 
 nav {
@@ -40,15 +28,14 @@ nav {
 
 header p {
     text-align: center;
-    margin-top: -0.5rem;
-    background-color: #1f1137;
+    background-color: #3a2b3d;
     border-radius: 0.25rem;
-    width: 100%;
-    margin-left: -60%;
-    margin-top: 1px;
-    color: white;
-    position: static;
-    padding-right: 80%;
+    margin-top: 41px;
+    margin-left: -16rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    max-width: 330px;
+    position: absolute;
 }
 
 main section {
@@ -86,24 +73,23 @@ footer li {
 }
 
 .logo h1 {
-
-    font-size: 1rem;
+    font-size: 1.5rem;
     text-align: center;
     margin-bottom: auto;
-    background-color: #1f1137;
-    padding: 1rem;
+    background-color: #3d313f;;
+    padding: 1px;
     color: white;
-    margin-top: 1rem;
-    width: 6rem;
-}
-
-.social-media {
-    display: flex;
-    margin-bottom: auto;
+    width: 15rem;
+    margin-top: 18px;
 }
 
 .social-media ul {
+    display: flex;
+    width: auto;
+    position: absolute;
     margin-left: -9rem;
+    margin-top: 7px;
+    padding: 0px;
 }
 
 .social-media li {
@@ -112,53 +98,30 @@ footer li {
 
 .facebook-logo, .twitter-logo {
     height: auto;
-    width: 50px;
+    width: 25px;
     max-height: 45px;
     max-width: 37px;
     border-radius: 1rem;
 }
 
-
 button {
-    height: 37px;
-    width: auto;
+    height: 35px;
+    width: 29px;
+    font-size: 2rem;
+    padding: 0px;
+    margin-top: -6px;
+    margin-left: -3rem;
 }
 
 #time {
     color: #1E152A;
 }
 
-.responsive li {
-	display: block;
-}
-
-.menu li:last-child {
-    display: block;
-    background-color: #1E152A;
+.menu li {
+    display: none;
+    position: absolute;
 }
 
 .menu li:first-child {
     display: block;
 }
-
-.menu li:nth-child(6) {
-    display: block;
-}
-.menu li:nth-child(7) {
-    display: block;
-}
-.menu li:nth-child(8) {
-    display: block;
-}
-.menu li {
-    display: none;
-}
-.responsive li {
-    display: block;
-}
-
-
-
-
-
-
