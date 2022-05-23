@@ -28,30 +28,6 @@ var formattedDate = `${days[date.getDay()]}, ${date.getDate()} ${months[date.get
 element.innerHTML = formattedDate;
 element.style.color = "white";
 
-// button.style.display = "none";
-
-// const menuList = document.querySelector(".menu");
-
-// window.onresize = ()=> {
-//     if (window.innerWidth < 800) 
-//     button.style.display = "block";
-//     if (window.innerWidth > 800) 
-//     button.style.display = "none";
-// };
-
-// var hamMenu;
-
-// if (window.innerWidth > 800) {
-//     if (menuList.children.length == 5) {
-//         // remove the hamburger item
-//         hamMenu = menuList.children[0];
-//         menuList.removeChild(menuList.children[0]);
-//     }
-// } else {
-//     console.log("here");
-//     menuList.appendChild(hamMenu);
-// }
-
 const menu = document.querySelector(".menu");
 const timeP = document.querySelector("header p");
 console.log(menu.style);
