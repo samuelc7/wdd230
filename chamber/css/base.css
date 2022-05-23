@@ -120,8 +120,13 @@ button {
 .menu li {
     display: none;
     position: absolute;
+    
 }
 
 .menu li:first-child {
     display: block;
+}
+
+.menu li:hover {
+    background-color: white;
 }

@@ -53,12 +53,27 @@ element.style.color = "white";
 // }
 
 const menu = document.querySelector(".menu");
+const timeP = document.querySelector("header p");
 console.log(menu.style);
 
 
 var shown = false;
 function showMenu() {
     if (shown) {
+
+        // Set the time paragraph back into place
+        timeP.style = "\
+        text-align: center;\
+        background-color: #3a2b3d;\
+        border-radius: 0.25rem;\
+        margin-top: 41px;\
+        margin-left: -16rem;\
+        padding-right: 5rem;\
+        padding-left: 5rem;\
+        max-width: 330px;\
+        position: absolute;\
+        ";
+
         menu.children[0].style = "display: block; margin-top: 1rem;"
         menu.style.display = "flex";
         menu.style.position = "absolute";
@@ -66,15 +81,32 @@ function showMenu() {
         for (var i = 1; i < menu.children.length; i++) {
             menu.children[i].style.display = "none";
         }
+        console.log("here");
+        menu.style = "backgeound-color: none;";
         shown = false;
     } else {
-        menu.style = "position: absolute;margin-top: 6rem;"
+        // Set the time paragraph in the correct spot
+        timeP.style.marginTop = "51px";
+        timeP.style.marginLeft = "-18rem";
+
+        menu.style = "position: absolute;margin-top: 6rem; padding-right: 4.75rem; padding-bottom: 8rem; padding-top: .5rem; background-color: #1E152A" ;
         menu.children[0].style = "display: block;position: absolute;margin-top: -4rem;margin-left: 2rem;"
         menu.style.display = "flex";
-        menu.style.flexDirection = "column";
+        menu.style.flexDirection = "row";
+        var marginCount = 0;
         for (var i = 1; i < menu.children.length; i++) {
-            menu.children[i].style.display = "contents";
+            menu.children[i].style.display = "block";
+            menu.children[i].style.backgroundColor = "lightgray";
+            menu.children[i].style.width = "7rem";
+            menu.children[i].style.textAlign = "center";
+            menu.children[i].style.marginTop = marginCount + "rem";
+            menu.children[i].style.padding = "2px";
+            menu.children[i].style.position = "inherit";
+            menu.children[i].style.marginLeft = "-3rem";
+            marginCount += 2;
         }
+        const hover = document.querySelector(".menu li:hover");
+        hover.style.backgroundColor = "white";
         shown = true;
     }
 }
