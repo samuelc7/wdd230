@@ -18,35 +18,22 @@
     }
 
     .events {
-       grid-row: 1 / 4;
-       height: auto;
+        height: auto;
+        width: 20rem;
     }
     .gWar {
-        grid-row: 1 / 3;
-        height: auto;
-        display: flex;
-        flex-direction: column;
-    }
-
-    .gWar div {
-        padding: 15%;
-        width: 70%;
-        margin: auto;
-        border: .5px solid lightgray;
+      height: auto;
     }
 
     .welcome {
-        grid-column: 3 / 4;
+        grid-column: 2 / 3;
         grid-row: 1 / 2;
         height: auto;
     }
 
     .weather {
         height: auto;
-    }
-
-    .first-div, .second-div {
-        height: 30%;
+        width: 20rem;
     }
 
     .logo-title h1 {
@@ -110,6 +97,18 @@
         position:static;
         margin-left: 0px;
     }
+
+    .welcome h1 {
+        right: 15rem;
+        bottom: 26rem;
+    }
     
+    .join {
+        right: 102px;
+        bottom: 19rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
     
 }

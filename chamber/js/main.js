@@ -65,7 +65,7 @@ function showMenu() {
         timeP.style.marginTop = "51px";
         timeP.style.marginLeft = "-18rem";
 
-        menu.style = "position: absolute;margin-top: 6rem; padding-right: 4.75rem; padding-bottom: 8rem; padding-top: .5rem; background-color: #1E152A" ;
+        menu.style = "position: absolute;margin-top: 6rem; padding-right: 4.75rem; padding-bottom: 8rem; padding-top: .5rem; background-color: #1E152A; z-index: 1;" ;
         menu.children[0].style = "display: block;position: absolute;margin-top: -4rem;margin-left: 2rem;"
         menu.style.display = "flex";
         menu.style.flexDirection = "row";
@@ -85,4 +85,15 @@ function showMenu() {
         hover.style.backgroundColor = "white";
         shown = true;
     }
+}
+
+// Only show the join button on mondays and tuesdays only
+const joinButton = document.querySelector(".join")
+if (days[date.getDay()] == "Monday" || days[date.getDay()] == "Tuesday") {
+    joinButton.style.display = "block";
+} else {
+    joinButton.style.display = "none";
+}
+function toJoinField() {
+    console.log("in function")
 }
