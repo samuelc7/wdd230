@@ -275,3 +275,53 @@ button {
     width: auto;
     height: 6rem;
 }
+
+.discover-images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 8px;
+}
+
+.discover-images img {
+    width: 450px;
+}
+
+.discover-images h3 {
+    background-color: #1E152A;
+    width: 98%;
+    color: white;
+    text-align: center;
+}
+
+.discover-images picture p {
+    margin: 0px;
+    margin-bottom: 20px;
+    background-color: rgb(184, 247, 184);
+    border: 1px #1E152A solid;
+    width: 97%;
+    padding: 2px;
+}
+
+
+.discover-info h3 {
+    text-align: center;
+    background-color: #1E152A;
+    color: white;
+}
+
+.discover-info {
+    padding: 8px;
+    padding-top: 0px;
+    width: 100%;
+}
+
+.discover-container {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 1.5rem;
+}

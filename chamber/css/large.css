@@ -110,5 +110,34 @@
         padding-right: 3rem;
     }
 
+    .discover-container {
+        grid-column: 1/4;
+        flex-direction: row;
+        grid-row: 1/3;
+    }
+
+    .discover-info {
+        width: 40%;
+        font-size: 1.5rem;
+    }
+    .discover-images {
+        width: 100%;
+    }
+
+    .discover-images img {
+        width: 98%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .discover-images picture p{
+        font-size: 1.5rem;
+        margin-left: 11px;
+    }
+
+    .discover-images picture:hover {
+        box-shadow: 0 0 50px rgb(32, 32, 30);
+
+    }
     
 }
