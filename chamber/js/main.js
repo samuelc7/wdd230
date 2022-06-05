@@ -133,13 +133,16 @@ images.forEach(image => {
 
 // Get the amount of days since last vist
 const daysSpan = document.getElementById("number-of-days");
-let lastVisitedDate = new Date(window.localStorage.getItem("last-visited-date"));
-let now = new Date();
 
-if (lastVisitedDate) {
-    let diffInMilliseconds = now - lastVisitedDate;
-    let secs = diffInMilliseconds / 1000;
-    let days = Math.floor(secs / 86400);
-    daysSpan.innerText = days;
+if (daysSpan) {
+    let lastVisitedDate = new Date(window.localStorage.getItem("last-visited-date"));
+    let now = new Date();
+
+    if (lastVisitedDate) {
+        let diffInMilliseconds = now - lastVisitedDate;
+        let secs = diffInMilliseconds / 1000;
+        let days = Math.floor(secs / 86400);
+        daysSpan.innerText = days;
+    }
+    window.localStorage.setItem("last-visited-date", now);
 }
-window.localStorage.setItem("last-visited-date", now);
