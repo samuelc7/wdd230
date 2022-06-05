@@ -99,8 +99,8 @@
     }
 
     .welcome h1 {
-        right: 17rem;
-        bottom: 30rem;
+        right: 25rem;
+        bottom: 41.5rem;
     }
     
     .join {
@@ -119,6 +119,7 @@
     .discover-info {
         width: 40%;
         font-size: 1.5rem;
+        margin-top: 2rem;
     }
     .discover-images {
         width: 100%;
@@ -133,6 +134,7 @@
     .discover-images picture p{
         font-size: 1.5rem;
         margin-left: 11px;
+        width: 98%;
     }
 
     .discover-images picture:hover {
@@ -140,4 +142,10 @@
 
     }
     
+    .time-since-last-visit {
+        display: block;
+        position: absolute;
+        padding: 5px;
+        width: 21%;
+    }
 }
