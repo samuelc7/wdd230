@@ -1,0 +1,42 @@
+* {
+    font-family: Ubuntu, sans-serif;
+}
+
+tr {
+    display: table-row;
+}
+
+tr:nth-child(even) {
+    background-color: aliceblue;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 0.25em .5em;
+    text-align: center;
+}
+
+th {
+    background-color: #ccc;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 5rem;
+}
+
+.title {
+    background-color: black;
+    color: white;
+}
+
+.met-goals {
+    background-color: rgb(37, 157, 75);
+    color: white;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
