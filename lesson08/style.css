@@ -41,3 +41,10 @@ body {
     align-items: center;
     justify-content: center;
 }
+
+.footer-part {
+    background-color: black;
+    font-size: 10px;
+    color: white;
+
+}
