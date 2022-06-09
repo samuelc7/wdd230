@@ -23,6 +23,7 @@ th {
 table {
     border-collapse: collapse;
     margin-top: 5rem;
+    box-shadow: 10px 10px 5px #222;
 }
 
 .title {
