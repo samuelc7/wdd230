@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Join page that allows users to fill out and submit the Join the Commerce Form">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/large.css">
+    <title>Join</title>
+</head>
+<body class="form-body">
+    <header>
+        <div class="logo">
+           <img src="images/logo_image.webp" alt="LOGO" width="1031" height="422">
+           <h1>Chamber of Coruscant</h1>
+       </div>
+       <nav>
+           <ul class="menu">
+               <li class="hamburger-menu"><button onclick=showMenu() id="hamburger">&#9776;</button></li>
+               <li><a href="index.html">Home</a></li>
+               <li><a href="#">Weather</a></li>
+               <li><a href="#">Join</a></li>
+               <li><a href="#">Contact</a></li>
+           </ul>
+           <p><span id="time">Time here</span></p>
+       </nav>
+       <div class="social-media">
+           <ul>
+               <li><a target="_blank" href="https://www.facebook.com/"><img class="facebook-logo" src="images/facebook_logo.png" alt="Facebook Logo" width="382" height="389"></a></li>
+               <li><a target="_blank" href="https://www.twitter.com/"><img class="twitter-logo" src="images/twitter.png" alt="Twitter Logo" width="180" height="183"></a></li>
+           </ul>
+       </div>
+    </header>
+    <main>
+        <div class="form-container">
+            <form action="thankyou.html" method="get">
+                <div class="personal-info">
+                    <h3>Personal Information</h3>
+                    <div class="form-section">
+                        <label for="firstName">First Name:</label>
+                        <input type="text" name="first name" id="firstName" required>
+                    </div>
+                    <div class="form-section">
+                        <label for="lastName">Last Name:</label>
+                        <input type="text" name="last name" id="lastName" required>
+                    </div>
+                    <div class="form-section">
+                        <label for="businessTitle">Your Title:</label>
+                        <input type="text" name="your title" id="businessTitle" placeholder="must be at least 7 characters" pattern="[\-A-Za-z ].{7,}">
+                    </div>
+                    <div class="form-section">
+                        <label for="email">Email:</label>
+                        <input type="email" name="email address" id="email" placeholder="example@gmail.com" required>
+                    </div>
+                    <div class="form-section">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" name="phone number" id="phone" required>
+                    </div>
+                </div>
+                <div class="business-info">
+                    <h3>Business Information</h3>
+                    <div class="form-section">
+                        <label for="businessName">Business Name:</label>
+                        <input type="text" name="business name" id="businessName" required>
+                    </div>
+                    <div class="form-section">
+                        <label for="membership">Membership Level:</label>
+                        <select name="Membership" id="membership">
+                            <option value="select">Select a Membership Level</option>
+                            <option value="Non-Profit (NP)">Non-Profit (NP)</option>
+                            <option value="Bronze">Bronze</option>
+                            <option value="Silver">Silver</option>
+                            <option value="Gold">Gold</option>
+                        </select>
+                    </div>
+                    <div class="form-section">
+                        <p class="description-header"><label for="description">Business Description:</label></p>
+                        <textarea id="description" name="business description" rows="4" cols="50" placeholder="Describe your business here:"></textarea>
+                    </div>
+                </div>
+                <input type="hidden" id="date">
+                <br>
+                <div class="submit">
+                    <input type="submit" id="submit" name="apply" value="Apply">
+                </div>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <ul>
+            <li><img src="images/logo_image.webp" alt="LOGO" width="1031" height="422"></li>
+            <li>
+                Coruscant Chamber of Commerce <br>
+                Core Worlds, Corusca Sector, Coruscant System <br>
+                info@coruscant.org <br> <br>
+                (202)-555-0158
+            </li>
+            <li>
+                &copy;2022 Chamber of Coruscant <br>
+                | Samuel Cummings :: BYU-Idaho |
+            </li>
+        </ul>
+    </footer>
+</body>
+<script src="js/main.js"></script>
+</html>

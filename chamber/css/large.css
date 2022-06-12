@@ -19,7 +19,6 @@
 
     .events {
         height: auto;
-        width: 20rem;
     }
     .gWar {
       height: auto;
@@ -33,7 +32,6 @@
 
     .weather {
         height: auto;
-        width: 20rem;
     }
 
     .logo-title h1 {
@@ -148,4 +146,5 @@
         padding: 5px;
         width: 21%;
     }
+
 }
