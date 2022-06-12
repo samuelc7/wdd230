@@ -377,3 +377,13 @@ form input, select {
 .form-body {
     background-color: #f6f7dc;
 }
+
+.thanks {
+    margin-bottom: 385px;
+    background-color: #bde5bd;
+    text-align: center;
+    grid-column: 2/3;
+    margin-top: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
