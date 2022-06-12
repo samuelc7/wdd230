@@ -146,3 +146,8 @@ if (daysSpan) {
     }
     window.localStorage.setItem("last-visited-date", now);
 }
+
+const formTime = document.getElementById("date");
+if (formTime != null) {
+    formTime.innerHTML = formattedDate;
+}

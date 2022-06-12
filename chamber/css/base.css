@@ -348,6 +348,7 @@ h3 {
     padding-top: 5px;
     padding-bottom: 5px;
     margin-left: 38px;
+    padding-left: 8px;
 }
 
 .form-section:nth-child(even) {
@@ -386,4 +387,8 @@ form input, select {
     margin-top: 3rem;
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+.thanks p {
+    font-size: 14px;
 }
