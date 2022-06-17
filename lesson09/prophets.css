@@ -1,4 +1,28 @@
+header {
+    text-align: center;
+    background-color: beige;
+    padding: 10px;
+    margin-bottom: 0px;
+}
+
+
 .cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.cards h2, p{
+    text-align: center;
+}
+
+.cards h2 {
+    margin-top: 0px;
+    background-color:cadetblue;
+}
+
+
+section {
+    background-color: azure;
+    margin: 5px;
+    border: 1px black solid;
 }
