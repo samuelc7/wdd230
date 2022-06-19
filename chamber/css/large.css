@@ -150,5 +150,21 @@
     .thanks {
         margin-bottom: 280px;
     }
+    
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+        grid-column: 1/4;
+        grid-row: 1/4;
+    }
 
+    .cards section {
+        border: none;
+        background-color: white;
+        box-shadow: 0 0 10px rgb(32, 32, 30);
+    }
+
+    .cards section img{
+        width: 100%;
+    }
 }
