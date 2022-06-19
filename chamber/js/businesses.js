@@ -31,4 +31,21 @@ function displayBusiness(business) {
 }});
 
 
+function toggleList() {
+    var sections = document.getElementsByTagName("section");
+    Array.from(sections).forEach((section) => {
+        var img = section.getElementsByTagName("img")[0];
+        img.style.display = "none";
+        section.style.display = "flex";
+        section.style.flexDirection = "row";
+    });
+}
 
+function toggleGrid() {
+    var sections = document.getElementsByTagName("section");
+    Array.from(sections).forEach((section) => {
+        var img = section.getElementsByTagName("img")[0];
+        img.style.display = "block";
+        section.style.flexDirection = "column";
+    });
+}

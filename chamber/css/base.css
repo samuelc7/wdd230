@@ -410,3 +410,27 @@ form input, select {
 .cards section img{
     width: 100%;
 }
+
+.cards button {
+    margin-left: 0px;
+    width: 5rem;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.top-part h1 {
+    text-align: center;
+}
+
+.top-part {
+    grid-column: 1/5;
+    padding-bottom: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
