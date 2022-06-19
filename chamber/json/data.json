@@ -1,0 +1,77 @@
+{
+    "businesses" : [
+        {
+            "name" : "Evolette Fitness",
+            "address" : "317 Tacoma Street, Washington",
+            "phone_number" : "(718) 848-5877",
+            "website" : "www.evolettefitness.com",
+            "icon" : "business_images/Evolette-Fitness-logos.jpeg",
+            "membership_level" : "level"
+        },
+        {
+            "name" : "Duckland",
+            "address" : "123 Duckland Drive, Courascant Planet",
+            "phone_number" : "(718) 848-5878",
+            "website" : "www.duckland.com",
+            "icon" : "business_images/Duckland-logos.jpeg",
+            "membership_level" : "level"
+        },
+        {
+            "name" : "Spacmen Videos",
+            "address" : "123 Spacmen Drive, Coruscant Panet",
+            "phone_number" : "(718) 848-5879",
+            "website" : "www.spacmenvideos.com",
+            "icon" : "business_images/Spacmen-Videos-logos.jpeg",
+            "membership_level" : "level"
+        },
+        {
+            "name" : "English Elephant",
+            "address" : "1234 English Elephant Drive, Coruscant Planet",
+            "phone_number" : "(718) 848-5880",
+            "website" : "www.englishelephant.com",
+            "icon" : "business_images/English-Elephant-logos.jpeg",
+            "membership_level" : "level"
+        },
+        {
+            "name" : "Rocks",
+            "address" : "123 Rocks Drive, Coruscant Planet",
+            "phone_number" : "(718) 848-5881",
+            "website" : "www.rocksheadphones.com",
+            "icon" : "business_images/Rocks-logos.jpeg",
+            "membership_level" : "level"
+        },
+        {
+            "name" : "Pancake Paints",
+            "address" : "1234 Pancake Drive, Coruscant Planet",
+            "phone_number" : "(718) 848-5882",
+            "website" : "www.pancakepaints.com",
+            "icon" : "business_images/Pancake-Paints-logos.jpeg",
+            "membership_level" : "level"
+        },
+        {
+            "name" : "Jumbo Electronics",
+            "address" : "1234 J Electronics Drive, Coruscant Planet",
+            "phone_number" : "(718) 848-5883",
+            "website" : "www.jumboelectronics.com",
+            "icon" : "business_images/Jumbo-Electronics-logos.jpeg",
+            "membership_level" : "level"
+        },
+        {
+            "name" : "Luiston Engravings",
+            "address" : "123 Luiston Engravings Drive, Coruscant Planet",
+            "phone_number" : "(718) 848-5884",
+            "website" : "www.luistonengravings.com",
+            "icon" : "business_images/Luiston-Engravings-logos.jpeg",
+            "membership_level" : "level"
+        },
+        {
+            "name" : "Snuggle Sweater",
+            "address" : "1234 Snuggle Soft Drive, Coruscant Planet",
+            "phone_number" : "(718) 848-5885",
+            "website" : "www.snugglesoftdrive.com",
+            "icon" : "business_images/Snuggle-Sweater-logos.jpeg",
+            "membership_level" : "level"
+        }
+    ]
+}
+

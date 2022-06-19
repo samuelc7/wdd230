@@ -392,3 +392,21 @@ form input, select {
 .thanks p {
     font-size: 14px;
 }
+
+.cards {
+    display: flex;
+    flex-direction: column;
+}
+.cards section{
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 10px rgb(32, 32, 30);
+    border: none;
+    background-color: white;
+}
+.cards section img{
+    width: 100%;
+}
