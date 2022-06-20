@@ -434,3 +434,8 @@ form input, select {
     align-items: center;
     margin: 10px;
 }
+
+.mainSections .div {
+    padding: 3px;
+    margin-left: 5px;
+}

@@ -161,7 +161,7 @@
     .cards section {
         border: none;
         background-color: white;
-        box-shadow: 0 0 10px rgb(32, 32, 30);
+        /* box-shadow: 0 0 10px rgb(32, 32, 30); */
     }
 
     .cards section img{
