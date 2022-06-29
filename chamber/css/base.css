@@ -200,10 +200,15 @@ button {
     margin-left: 7rem;
 }
 
-.icon-degree p {
-    margin-left: 13rem;
+.icon-degree h2 {
+    margin-left: 6rem;
+    margin-top: 3rem;
+}
+
+.icon-degree p, span {
+    margin-left: 6rem;
     margin-top: 2rem;
-    font-size: 2rem;
+    font-size: 16px;
 }
 
 .weather-info {
@@ -217,16 +222,17 @@ button {
 
 .weather-info h2 {
     text-align: right;
-    margin-right: 8rem;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .weather-info p {
     text-align: left;
-    margin-left: 7rem;
 }
 
 .weather-info div {
-    margin-top: -11px
+    margin-top: -11px;
+    margin-left: 8rem;
 }
 
 .facts h1 {
