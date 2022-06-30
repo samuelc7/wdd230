@@ -1,7 +1,7 @@
 const key = "36b5b7d508567f61ed1b21c343adb785";
 
 // Get the long and latitude of Rexburg, Idaho 
-var cord_url = `http://api.openweathermap.org/geo/1.0/direct?q=rexburg,id,usa&limit=2&appid=${key}`;
+var cord_url = `https://api.openweathermap.org/geo/1.0/direct?q=rexburg,id,usa&limit=2&appid=${key}`;
 let long;
 let lat;
 
@@ -41,7 +41,7 @@ fetch(cord_url)
                 descSpan.innerText = desc;
 
                 var weatherIcon = document.getElementById("weather-icon");
-                weatherIcon.setAttribute("src", `http://openweathermap.org/img/wn/${icon}@2x.png`)
+                weatherIcon.setAttribute("src", `https://openweathermap.org/img/wn/${icon}@2x.png`)
 
                 var windChill;
                 if (temp <= 50 && windSpeed > 3) {
