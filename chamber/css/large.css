@@ -167,4 +167,20 @@
     .cards section img{
         width: 100%;
     }
+
+    .weather-info div {
+        margin-left: 2rem;
+    }
+
+    #desc {
+        margin-left: -4rem;
+    }
+
+    .icon-degree {
+        margin-left: 0px;
+    }
+
+    .icon-degree p, span {
+        margin-top: 4rem;
+    }
 }

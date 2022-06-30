@@ -198,6 +198,7 @@ button {
     display: flex;
     flex-direction: row;
     margin-left: 7rem;
+    margin-top: -2rem;
 }
 
 .icon-degree h2 {
@@ -444,4 +445,8 @@ form input, select {
 .mainSections .div {
     padding: 3px;
     margin-left: 5px;
+}
+
+#desc {
+    margin-left: 0px;
 }

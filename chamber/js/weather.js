@@ -25,12 +25,32 @@ fetch(cord_url)
                 const wind = jsonObject["wind"];
 
                 const icon = weather["icon"];
-                const desc = weather["description"];
+                const desc = weather["description"].charAt(0).toUpperCase() +  weather["description"].substring(1, weather["description"].length);
                 const humidity = main["humidity"];
-                const temp = main["temp"];
+                const tempK = main["temp"];
+                const temp = Math.round(1.8*(tempK-273) + 32);
                 const windSpeed = wind["speed"];
-    
-                console.log(jsonObject);
+
+                var tempSpan = document.getElementById("temp");
+                tempSpan.innerText = temp;
+
+                var windSpeedSpan = document.getElementById("wind-speed");
+                windSpeedSpan.innerText = windSpeed;
+
+                var descSpan = document.getElementById("desc");
+                descSpan.innerText = desc;
+
+                var weatherIcon = document.getElementById("weather-icon");
+                weatherIcon.setAttribute("src", `http://openweathermap.org/img/wn/${icon}@2x.png`)
+
+                var windChill;
+                if (temp <= 50 && windSpeed > 3) {
+                    windChill = Math.round(35.74 + (0.6215 * temp) - (35.75 * (windSpeed**.16)) + (0.4275 * (temp * windSpeed**.16)));
+                } else {
+                    windChill = "N/A";
+                }
+
+                document.getElementById("wind-chill").innerText = windChill;   
             });
         
 });
