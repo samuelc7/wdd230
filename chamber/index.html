@@ -14,7 +14,7 @@
     <header>
          <div class="logo">
             <img src="images/logo_image.webp" alt="LOGO" width="1031" height="422">
-            <h1>Chamber of Coruscant</h1>
+            <h1>Coruscant Chamber of Commerce</h1>
         </div>
         <nav>
             <ul class="menu">
@@ -55,16 +55,25 @@
         <section class="weather">
             <h1>Weather</h1>
             <div class="weather-container">
-                <div class="icon-degree">
-                    <img id="weather-icon" src="images/partly-cloudy.png" alt="weather icon">
-                    <p><span id="desc"></span></p>
-                </div>
-                <div class="weather-info">
-                    <div>
+                <h3>Today's Weather</h3>
+                <div class="todays-weather">
+                    <div class="icon-and-condition">
+                        <img id="weather-icon" src="images/partly-cloudy.png" alt="weather icon">
+                        <p><span id="desc"></span></p>
+                    </div>
+                    <div class="weather-info">
                         <p>Temperature: <span id="temp"></span>&deg;</p>
                         <p>Wind Speed: <span id="wind-speed"></span> mph</p>
                         <p>Wind Chill: &nbsp;&nbsp;<span id="wind-chill"></span></p>
                     </div>
+                </div>
+                <h3>3 Day Weather Forecast</h3>
+                <div >
+                    <ul class="day-forecast-3">
+                        <li id="day1">Day 1</li>
+                        <li id="day2">Day 2</li>
+                        <li id="day3">Day 3</li>
+                    </ul>
                 </div>
             </div>
         </section>

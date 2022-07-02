@@ -76,7 +76,7 @@
     .menu a:active { text-decoration: none; }
 
     .logo h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin-bottom: auto;
         padding: .5rem;
         color: white;
@@ -97,8 +97,8 @@
     }
 
     .welcome h1 {
-        right: 32rem;
-        bottom: 47.5rem;
+        right: 16rem;
+        bottom: 38.5rem;    
     }
     
     .join {
@@ -172,15 +172,28 @@
         margin-left: 2rem;
     }
 
-    #desc {
-        margin-left: -4rem;
-    }
-
     .icon-degree {
         margin-left: 0px;
     }
 
     .icon-degree p, span {
         margin-top: 4rem;
+    }
+
+    #weather-icon {
+        margin-left: 2rem;
+    }
+
+    #desc {
+        margin-left: 3rem;
+        margin-right: 0px;
+    }
+
+    .day-forecast {
+        width: 9rem;
+    }
+
+    .day-forecast-3 {
+        margin-left: -4.3rem;
     }
 }

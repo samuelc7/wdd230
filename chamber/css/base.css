@@ -13,7 +13,7 @@ header  {
 }
 
 img {
-    width: 6rem;
+    width: 9rem;
     height: auto;
 }
 
@@ -70,18 +70,20 @@ footer li {
 
 .logo img {
     margin-right: 1rem;
-    padding: 25px;
+    padding: 17px;
+    padding-right: 0px;
 }
 
 .logo h1 {
-    font-size: 1.5rem;
+    font-size: 13px;
     text-align: center;
     margin-bottom: auto;
-    background-color: #3d313f;;
+    background-color: #3d313f;
     padding: 1px;
     color: white;
     width: 15rem;
     margin-top: 18px;
+    margin-left: 20px;
 }
 
 .social-media ul {
@@ -89,7 +91,7 @@ footer li {
     width: auto;
     position: absolute;
     margin-left: -9rem;
-    margin-top: 7px;
+    margin-top: 10px;
     padding: 0px;
 }
 
@@ -448,5 +450,43 @@ form input, select {
 }
 
 #desc {
-    margin-left: 0px;
+    margin-left: 4.8rem;
+    margin-right: 6rem;
+
+}
+
+#weather-icon {
+    margin-bottom: -28px;
+    background: white;
+    margin-left: 5rem;
+    margin-top: 1rem;
+}
+
+#time {
+    font-size: 13px;;
+}
+
+.icon-and-condition {
+    display: flex;
+    flex-direction: column;
+    margin-top: -2rem;
+}
+
+.todays-weather {
+    display: flex;
+    flex-direction: row;
+}
+
+.day-forecast {
+    background-color: #cadddf;
+    width: 10rem;
+    text-align: center;
+    margin-left: 1rem;
+    margin-top: -23px;
+}
+
+.day-forecast-3 {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
 }

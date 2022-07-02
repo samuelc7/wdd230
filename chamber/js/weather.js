@@ -51,6 +51,59 @@ fetch(cord_url)
                 }
 
                 document.getElementById("wind-chill").innerText = windChill;   
+
+                // Get information for the 3 day forecast
+                var forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${long}&appid=${key}`;
+                fetch(forecastUrl)
+                    .then((res) => {
+                        return res.json();
+                })
+                .then((jsonObject) => {
+                    var dayCounter = 0;
+
+                    for (var i = 0; i < 40; i++) {
+                        if (dayCounter < 3) {
+                            var curr = jsonObject['list'][i];
+                            if (curr["dt_txt"].includes("12:00:00")) {
+                                console.log(curr);
+
+                                const weather = curr["weather"][0];
+                                const main = curr["main"];
+                                const wind = curr["wind"];
+
+                                const icon = weather["icon"];
+                                console.log(icon);
+                                const desc = weather["description"].charAt(0).toUpperCase() +  weather["description"].substring(1, weather["description"].length);
+                                const humidity = main["humidity"];
+                                const tempK = main["temp"];
+                                const temp = Math.round(1.8*(tempK-273) + 32);
+                                const windSpeed = wind["speed"];
+                                const day = curr["dt_txt"].substring(0, 10);
+
+                                const id = "day" + `${dayCounter + 1}`;
+
+                                var html = `
+                                    <div class="day-forecast">
+                                        <h3>${day}</h3>
+                                        <div class="forecast-content">
+                                            <img src="https://openweathermap.org/img/wn/${icon}@2x.png" alt="weather icon">
+                                            <p> ${desc} </p>
+                                            <p> Tempurature: ${temp}&deg;</p>
+                                            <p> Humidity: ${humidity}</p>
+                                            <p> Wind Speed: ${windSpeed}&nbsp;mph</p>
+                                        </div>
+                                    </div>
+                                `
+
+                                var updateMe = document.getElementById(id);
+                                updateMe.innerHTML = html;
+
+                                dayCounter++;
+                            }
+                           
+                        }
+                    }
+                })
             });
         
 });

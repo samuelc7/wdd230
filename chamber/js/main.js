@@ -26,7 +26,7 @@ var months = [
 
 var formattedDate = `${days[date.getDay()]}, ${date.getDate()} ${months[date.getMonth()]} ${date.getFullYear()}`;
 element.innerHTML = formattedDate;
-element.style.color = "white";
+element.style.color = "white";  
 
 const menu = document.querySelector(".menu");
 const timeP = document.querySelector("header p");
