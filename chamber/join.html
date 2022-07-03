@@ -41,11 +41,11 @@
                 <div class="personal-info">
                     <h3>Personal Information</h3>
                     <div class="form-section">
-                        <label for="firstName">First Name:</label>
+                        <label for="firstName" class="required-field">First Name:</label>
                         <input type="text" name="first name" id="firstName" required>
                     </div>
                     <div class="form-section">
-                        <label for="lastName">Last Name:</label>
+                        <label for="lastName" class="required-field">Last Name:</label>
                         <input type="text" name="last name" id="lastName" required>
                     </div>
                     <div class="form-section">
@@ -53,18 +53,18 @@
                         <input type="text" name="your title" id="businessTitle" placeholder="must be at least 7 characters" pattern="[\-A-Za-z ].{7,}">
                     </div>
                     <div class="form-section">
-                        <label for="email">Email:</label>
+                        <label for="email" class="required-field">Email:</label>
                         <input type="email" name="email address" id="email" placeholder="example@gmail.com" required>
                     </div>
                     <div class="form-section">
-                        <label for="phone">Phone Number:</label>
+                        <label for="phone" class="required-field">Phone Number:</label>
                         <input type="tel" name="phone number" id="phone" required>
                     </div>
                 </div>
                 <div class="business-info">
                     <h3>Business Information</h3>
                     <div class="form-section">
-                        <label for="businessName">Business Name:</label>
+                        <label for="businessName" class="required-field">Business Name:</label>
                         <input type="text" name="business name" id="businessName" required>
                     </div>
                     <div class="form-section">
@@ -86,6 +86,49 @@
                 <br>
                 <div class="submit">
                     <input type="submit" id="submit" name="apply" value="Apply">
+                </div>
+                <div class="membership-levels">
+                    <h5>Membership Levels:</h5>
+                    <ul>
+                        <li>
+                            <div class="first">
+                                <p>Non-profit - $100.00</p>
+                                <ul>
+                                    <li>Includes 1 training a year</li>
+                                    <li>At least 1 spotlight spot within the year</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <p>Bronze - $200.00</p>
+                                    <ul>
+                                        <li>Includes 2 trainings a year</li>
+                                        <li>At least 1 spotlight spot on the Home page for 6 months of the year</li>
+                                    </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <p>Silver - $400.00</p>
+                                <ul>
+                                    <li>Includes 3 trainings a year</li>
+                                    <li>At least 1 spotlight spot on the Home page all year round</li>
+                                    <li>5% off all purchases</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <p>Gold - $1000.00</p>
+                                <ul>
+                                    <li>Includes 5 trainings a year</li>
+                                    <li>At least 2 spotlight spot on the Home page all year round</li>
+                                    <li>10% off all purchases</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </form>
         </div>

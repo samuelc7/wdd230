@@ -94,13 +94,11 @@ fetch(cord_url)
                                         </div>
                                     </div>
                                 `
-
                                 var updateMe = document.getElementById(id);
                                 updateMe.innerHTML = html;
 
                                 dayCounter++;
                             }
-                           
                         }
                     }
                 })
