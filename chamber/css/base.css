@@ -505,3 +505,25 @@ form input, select {
     content:" *";
     color: red;
 }
+.contact-form-container {
+    width: 265px;
+}
+
+.contact-form {
+    width: 107%;
+    background-color: white;
+    padding: 0px;
+}
+
+.contact-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    height: 700px;
+}
+
+.contact-heading {
+    text-align: center;
+}

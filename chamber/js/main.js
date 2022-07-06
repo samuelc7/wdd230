@@ -58,14 +58,14 @@ function showMenu() {
             menu.children[i].style.display = "none";
         }
         console.log("here");
-        menu.style = "backgeound-color: none;";
+        menu.style = "background-color: none;";
         shown = false;
     } else {
         // Set the time paragraph in the correct spot
         timeP.style.marginTop = "51px";
         timeP.style.marginLeft = "-18rem";
 
-        menu.style = "position: absolute;margin-top: 6rem; padding-right: 4.75rem; padding-bottom: 8rem; padding-top: .5rem; background-color: #1E152A; z-index: 1;" ;
+        menu.style = "position: absolute;margin-top: 6rem; padding-right: 4.75rem; padding-bottom: 10rem; padding-top: .5rem; background-color: #1E152A; z-index: 1;" ;
         menu.children[0].style = "display: block;position: absolute;margin-top: -4rem;margin-left: 2rem;"
         menu.style.display = "flex";
         menu.style.flexDirection = "row";
@@ -97,7 +97,7 @@ if (joinButton) {
     }
 }
 function toJoinField() {
-    console.log("in function")
+    window.location.href = "../join.html"
 }
 
 

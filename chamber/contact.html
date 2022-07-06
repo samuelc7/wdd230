@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/large.css">
-    <title>Contact</title>
+    <title>Contact Us</title>
 </head>
 <body>
     <header>
@@ -19,10 +19,12 @@
        <nav>
            <ul class="menu">
                <li class="hamburger-menu"><button onclick=showMenu() id="hamburger">&#9776;</button></li>
-               <li><a href="#">Home</a></li>
-               <li><a href="#">Weather</a></li>
-               <li><a href="#">Join</a></li>
+               <li><a href="./index.html">Home</a></li>
+               <li><a href="./join.html">Join</a></li>
+               <li><a href="./discover.html">Discover</a></li>
+               <li><a href="./directory.html">Directory</a></li>
                <li><a href="#">Contact</a></li>
+
            </ul>
            <p><span id="time">Time here</span></p>
        </nav>
@@ -34,7 +36,41 @@
        </div>
     </header>
     <main>
-
+        <div class="contact-container">
+            <div>
+                <h2>Contact Us</h2>
+                <p>Please contact us via email, phone call, letter, or fill out and submit the contact form.</p>
+                <h4>Coruscant Chamber of Commerce</h4>
+                <p>123 Coruscant Planet</p>
+                <p>Core Worlds Region</p>
+                <p>(262) 472-1508</p>
+                <p>coruscant@commerce.org</p>
+            </div>
+            <div class="contact-form-container">
+                <h2 class="contact-heading">Contact Form</h2>
+                <form action="post" class="contact-form">
+                    <div class="form-section">
+                        <label for="firstName" class="required-field">First Name:</label>
+                        <input type="text" name="first name" id="firstName" required>
+                    </div>
+                    <div class="form-section">
+                        <label for="lastName" class="required-field">Last Name:</label>
+                        <input type="text" name="last name" id="lastName" required>
+                    </div>
+                    <div class="form-section">
+                        <label for="email" class="required-field">Email:</label>
+                        <input type="email" name="email address" id="email" placeholder="example@gmail.com" required>
+                    </div>
+                    <div class="form-section">
+                        <label for="question" class="required-field">Question/Concern:</label>
+                        <textarea name="question" id="question" cols="30" rows="3"></textarea>
+                    </div>
+                    <div class="submit">
+                        <input type="submit" id="submit" name="apply" value="Apply">
+                    </div>
+                </form>
+            </div>
+        </div>
     </main>
     <footer>
         <ul>
