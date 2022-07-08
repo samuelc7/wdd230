@@ -1,0 +1,123 @@
+td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 10px;
+}
+
+.cormorant-garamond {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 35px;
+}
+
+.antic-slab {
+    font-family: 'Antic Slab', serif;
+    font-size: 20px;
+}
+
+.spectral {
+    font-family: 'Spectral', serif;
+    font-size: 20px;
+}
+
+.first {
+    background-color: #faf3d3;
+}
+
+.sec {
+    background-color: #bfd2e0;
+}
+
+.third {
+    background-color: #ffea96;
+}
+
+.fourth {
+    background-color: #5e60ce;
+}
+
+.fifth {
+    background-color: #ffffff;
+    border: solid .5px black;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+main div {
+    width: 900px;
+}
+
+.site-map {
+    width: 544px;
+    height: auto;
+}
+
+.wf-section {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1rem;
+
+}
+
+.wf-container {
+    grid-column: 2/5;
+    grid-row: 1;
+    margin-left: 11rem;
+}
+
+.wf-section div {
+    width: auto;
+    margin: 1rem;
+}
+
+.large {
+    width: 675px;
+    height: auto;
+}
+
+.med {
+    width: auto;
+    height: 1197px;
+}
+
+.small {
+    height: 1197px;
+    width: 300px;
+}
+
+/* .typography {
+    grid-column: 1/2;
+    grid-row: 2;
+} */
+
+.purpose {
+    grid-column: 1/2;
+    grid-row: 1;
+}
+
+h1 {
+    text-align: center;
+    background-color: #a9bfd8;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: -8px;
+}
+
+li {
+    height: 4rem;
+    width: 12rem;
+    text-align: center;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.temp {
+    display: flex;
+}
+
+p {
+    font-size: 25px;
+}
