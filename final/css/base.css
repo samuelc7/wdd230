@@ -2,8 +2,10 @@ header {
     border-bottom: 1px solid #bfd2e0;
     background-color: #f1f1f1;
     font-family: 'Cormorant Garamond', serif;
-    font-size: 35px;
-    padding-top: 2px;
+    font-size: 30px;
+    width: 100%;
+    height: 5rem;
+    margin-top: -2rem;
 }
 
 header ul {
@@ -11,22 +13,29 @@ header ul {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 0px;
+    padding-top: 5px;
     width: 100%;
 }
 
 header li {
     list-style-type: none;
     margin-right: 6%;
+    width: 100%;
 }
 
 header li a {
     color: #5e60ce;
     text-decoration: none;
-    padding: 2rem;
+    padding: 3%;
 }
 
 header li a:hover {
     background-color: #f8f3d7;
     box-shadow: 0 0 10px 5px rgb(170, 170, 170);
 }
+
+.content-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
