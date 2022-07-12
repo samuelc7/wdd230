@@ -23,6 +23,11 @@ header li {
     width: 100%;
 }
 
+header li img {
+    width: 150px;
+    height: 70px;
+}
+
 header li a {
     color: #5e60ce;
     text-decoration: none;
@@ -34,6 +39,12 @@ header li a:hover {
     box-shadow: 0 0 10px 5px rgb(170, 170, 170);
     padding-left: 40px;
     padding-right: 40px;
+}
+
+header li a:first-child:hover {
+    background-color: #f1f1f1;
+    box-shadow: none;
+    padding: 0px;
 }
 
 .content-container {
@@ -49,7 +60,7 @@ header li a:hover {
 }
 
 .section1 {
-    margin-left: 10rem;
+    margin-left: 8%;
     margin-top: 2rem;
     display: flex;
     flex-direction: row;
@@ -57,7 +68,7 @@ header li a:hover {
 }
 
 .section1 img {
-    margin-right: 3rem;
+    margin-right: 1rem;
     width: 38%;
     height: auto;
 }
@@ -109,7 +120,7 @@ header li a:hover {
 
 .ss-row img {
     border: green solid .5px;
-    margin-right: 3rem;
+    margin-right: 2%;
     width: 17rem;
     height: auto;
 }
@@ -117,14 +128,14 @@ header li a:hover {
 .ss-row div {
     width: 100%;
     border: green solid .5px;
-    padding-left: 10px;
+    padding-left: 2%;
 }
 
 .section3 {
     grid-column: 1/6;
     display: flex;
     flex-direction: row;
-    margin-left: 10rem;
+    margin-left: 8%;
     margin-top: 2rem;
     width: 100%;
 }
@@ -135,11 +146,11 @@ header li a:hover {
     flex-direction: row;
     border: red 1px solid;
     padding: 1rem;
-    margin-right: 4rem;
+    margin-right: 2%;
 }
 
 .section3 .temple-container div {
-    margin-left: 3rem;
+    margin-left: 2%;
     border: green 1px solid;
     width: 100%;
 }
@@ -164,4 +175,60 @@ header li a:hover {
     text-align: center;
 }
 
+.section4 {
+    grid-column: 1/6;
+    display: flex;
+    flex-direction: row;
+    margin-left: 8%;
+    margin-top: 2rem;
+    width: 100%;
+}
 
+.section4 .todays-weather {
+    width: 15%;
+    height: 15rem;
+    border: red solid 1px;
+    margin-right: 2%;
+    padding: 1rem;
+}
+
+.section4 .todays-weather h3 {
+    text-align: center;
+    margin-top: 0px;
+}
+
+.section4 .forecast {
+    width: 60%;
+    border: red solid 1px;
+    padding: 1rem;
+    padding-top: 0px;
+}
+
+.section4 .forecast h3 {
+    margin-top: 0px;
+    text-align: center;
+    border: green 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+}
+
+.section4 .forecast .days {
+    display: flex;
+    flex-direction: row;
+}
+
+.section4 .forecast .days div {
+    border: 1px solid green;
+    width: 100%;
+    height: 13rem;
+    text-align: center;
+}
+
+footer {
+    margin-top: 2rem;
+    background-color: #f1f1f1;
+    height: 5rem;
+    border-top: 1px solid #bfd2e0;
+
+}
