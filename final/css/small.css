@@ -41,7 +41,11 @@
     }
 
     header li:nth-child(6) {
-        margin-left: 15rem;
+        display: block;
+    }
+
+    header li:nth-child(7) {
+        margin-left: 10rem;
         display: block;
     }
 
