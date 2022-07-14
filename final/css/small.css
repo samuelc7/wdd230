@@ -1,0 +1,150 @@
+@media only screen and (max-width: 600px) {
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 13px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    header {
+        font-size: 20px;
+    }
+
+    header ul {
+        width: 100%;
+    }
+
+    header li img {
+        width: 78px;
+        height: 70px;
+        margin-left: 0px;
+    }
+
+    header li a:hover {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    header li {
+        display: none;
+    }
+
+    header li:first-child {
+        display: block;
+        margin-left: 0px;
+    }
+
+    header li:nth-child(6) {
+        margin-left: 15rem;
+        display: block;
+    }
+
+    header li:last-child {
+        display: block;
+    }
+
+    .content-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section1 img {
+        width: 85%;
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    .book-and-amenities {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .section1 .amenities {
+        margin-top: 1rem;
+        height: 200px;
+        width: 120%;
+        margin-right: 5rem;
+        margin-left: 10px;
+    }
+
+    .section1 .book-and-amenities h2 {
+        position: absolute;
+        left: 17.5rem;
+        top: 27.5rem;
+        font-size: 20px;
+    }
+
+    .ss-row img {
+        width: 6rem;
+    }
+
+    .section2 h2 {
+        margin-top: 5px;
+    }
+
+    .section2 {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .ss-row {
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .section3 {
+        flex-direction: column;
+        margin-top: 0px;
+    }
+
+    .section3 .temple-container {
+        flex-direction: column;
+        width: 78%;
+        margin-top: 1rem;
+        margin-left: -3px;
+        margin-right: 0px;
+    } 
+
+    .section3 .temple-container div {
+        margin-left: 0px;
+    }
+
+    .section3 .contact-us-container {
+        margin-top: 1rem;
+        width: 78%;
+        margin-left: -3px;
+    }
+
+    .section4 {
+        flex-direction: column;
+    }
+
+    .section4 .todays-weather {
+        width: 78%;
+        height: 7rem;
+        margin-right: 0px;
+        margin-top: -1rem;
+        margin-bottom: 1rem;
+        margin-left: -2px;
+    }
+
+    .section4 .forecast {
+        width: 78%;
+        margin-left: -2px;
+    }
+
+
+}
