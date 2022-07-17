@@ -155,5 +155,9 @@
         flex-direction: column;
     }
 
+    .temple-section .img-and-info img {
+        height: 50%;
+    }
+
 
 }
