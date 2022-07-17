@@ -118,4 +118,14 @@
     .accordian-button {
         height: 6rem;
     }
+
+    .form-container {
+        width: 30rem;
+    }
+
+    .formSubmit {
+        top: 30.5rem;
+        left: 34%
+    }
+
 }

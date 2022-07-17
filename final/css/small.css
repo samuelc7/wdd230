@@ -159,5 +159,50 @@
         height: 260px;
     }
 
+    .form-container {
+        width: 20rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
 
+    .room-container {
+        flex-direction: column;
+        padding-right: 7%
+    }
+
+
+    .formSubmit {
+        position: relative;
+        top: 0px;
+        left: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .form-container form input {
+        width: 75%;
+    }
+
+    .form-container form .formSubmit {
+        width: 50%;
+    }
+    
+
+    .form-container form {
+        flex-direction: column;
+    }
+
+    .personal {
+        margin-right: auto;
+    }
+    .stay {
+        margin-left: auto;
+    }
+
+    .stay div input {
+        margin-left: -2rem;
+        margin-right: -2rem;
+    }
+
+    
 }
