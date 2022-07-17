@@ -83,9 +83,9 @@
     }
 
     .section1 .book-and-amenities h2 {
-        position: absolute;
+        /* position: absolute;
         left: 17.5rem;
-        top: 27.5rem;
+        top: 27.5rem; */
         font-size: 20px;
     }
 

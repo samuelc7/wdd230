@@ -43,16 +43,15 @@
     }
 
     .book-and-amenities h2 {
-        margin-top: 1rem;
-        margin-bottom: 0px;
         font-size: 20px;
-        margin-right: 23%;
+
     }
 
     .amenities {
         width: 80%;
         max-width: 500px;
         max-height: 372px;
+    
     }
 
     .section2 {

@@ -1,0 +1,175 @@
+{
+    "temples" : [
+        {
+            "name" : "Washington D.C.",
+            "img" : "./images/washington_dc_mormon_temple.jpeg",
+            "address" : {
+                "street" : "9900 StoneyBrook Dr",
+                "city state" : "Kensington MD 20895-3199",
+                "country" : "United States"
+            },
+            "phone" : "301-588-0650",
+            "email" : "",
+            "services" : [
+                "Baptisms and conformations for the dead",
+                "Preisthood ordination",
+                "Initiatories",
+                "Endowments",
+                "Sealings"
+            ],
+            "history" : [
+                { 
+                    "date" : "15 November 1968",
+                    "event" : "Announced"
+                },
+                {
+                    "date" : "7 December 1968",
+                    "event" : "Groundbreaking"
+                },
+                {
+                    "date" : "19 November 1974",
+                    "event" : "Dedicated"
+                },
+                {
+                    "date" : "14 August 2022",
+                    "event" : "Rededicated"
+                }
+            ],
+            "schedules" : {
+                "Dedication" : "August 14, 2022",
+                "Open House" : "August 30, 2022",
+                "Temple Closures" : ["N/A"]
+            }
+        },
+        {
+            "name" : "Richmond",
+            "img" : "./images/richmond_virginia_temple_groundbreaking.jpeg",
+            "address" : {
+                "street" : "10915 Staples Mill Rd",
+                "city state" : "Glen Allen VA 23060",
+                "country" : "United States"
+            },
+            "phone" : "none",
+            "email" : "",
+            "services" : [
+                "Baptisms and conformations for the dead",
+                "Preisthood ordination",
+                "Initiatories",
+                "Endowments",
+                "Sealings"
+            ],
+            "history" : [
+                { 
+                    "date" : "1 April 2018",
+                    "event" : "Announced"
+                },
+                {
+                    "date" : "11 April 2020",
+                    "event" : "Groundbreaking"
+                }
+            ],
+            "schedules" : {
+                "Dedication" : "TBD",
+                "Open House" : "TBD",
+                "Temple Closures" : ["N/A"]
+            }
+        },
+        {
+            "name" : "Raleigh North Carolina",
+            "img" : "./images/raleigh_north_carolina_temple.jpeg",
+            "address" : {
+                "street" : "574 Bryan Dr",
+                "city state" : "Apex NC 27502-4127",
+                "country" : "United States"
+            },
+            "phone" : "(1) 919-362-4135",
+            "email" : "",
+            "services" : [
+                "Baptisms and conformations for the dead",
+                "Preisthood ordination",
+                "Initiatories",
+                "Endowments",
+                "Sealings",
+                "No clothing rental available",
+                "No cafeteria available",
+                "No patron housing available", 
+                "No distrubution center nearby"
+            ],
+            "history" : [
+                { 
+                    "date" : "3 September 1998",
+                    "event" : "Announced"
+                },
+                {
+                    "date" : "6 February 1999",
+                    "event" : "Groundbreaking"
+                },
+                {
+                    "date" : "18 December 1999",
+                    "event" : "Dedicated"
+                },
+                {
+                    "date" : "13 October 2019",
+                    "event" : "Rededicated"
+                }
+            ],
+            "schedules" : {
+                "Temple Closures" : [
+                    "Saturday, 1 October 2022 - Sunday, 2 October 2022",
+                    "Monday, 31 October 2022 - Monday, 14 November 2022",
+                    "Wednesday, 23 November 2022 - Thursday, 24 November 2022",
+                    "Saturday, 24 December 2022",
+                    "Saturday, 31 December 2022 (Limited Operations)"
+                ],
+                "Dedication" :"N/A",
+                "Open House" : "N/A"
+            }
+        },
+        {
+            "name" : "Philadelphia Pennsylvania",
+            "img" : "./images/philadelphia_pennsylvania_temple_exterior.jpeg",
+            "address" : {
+                "street" : "1739 Vine St",
+                "city state" : "Philadelphia PA 19103",
+                "country" : "United States"
+            },
+            "phone" : "(1) 215-398-3040",
+            "email" : "",
+            "services" : [
+                "Baptisms and conformations for the dead",
+                "Preisthood ordination",
+                "Initiatories",
+                "Endowments",
+                "Sealings",
+                "Clothing rental available",
+                "No cafeteria available",
+                "No patron housing available", 
+                "Distrubution center nearby"
+            ],
+            "history" : [
+                { 
+                    "date" : "4 October 2008",
+                    "event" : "Announced"
+                },
+                {
+                    "date" : "17 September 2011",
+                    "event" : "Groundbreaking"
+                },
+                {
+                    "date" : "18 September 2016",
+                    "event" : "Dedicated"
+                }
+            ],
+            "schedules" : {
+                "Temple Closures" : [
+                    "Monday, 19 September 2022 - Monday, 10 October 2022",
+                    "Wednesday, 23 November 2022 - Thursday, 24 November 2022",
+                    "Saturday, 24 December 2022 - Sunday, 25 December 2022",
+                    "Saturday, 31 December 2022"
+                ],
+                "Dedication" : "N/A",
+                "Open House" : "N/A"
+            }
+        }
+    ]
+}

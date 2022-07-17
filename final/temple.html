@@ -11,22 +11,182 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/base.css">
         <link rel="stylesheet" href="css/medium.css">
-        <link rel="stylesheet" href="css/large.css">
-    </head>
+        <link rel="stylesheet" href="css/small.css">
     <body>
         <header>
             <ul>
+                <li><a class="logo" href="#"><img src="https://via.placeholder.com/75" alt="placeholder"></a></li>
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="#">Temple</a></li>
                 <li><a href="./reservation.html">Reservation</a></li>
                 <li><a href="./services.html">Services</a></li>
+                <li class="hamburger-menu"><button onclick=showMenu() id="hamburger">&#9776;</button></li>
                 <li><a href="#">Twitter</a></li>
                 <li><a href="#">Facebook</a></li>
             </ul>
         </header>
         <main>
-            <h1>Temple Page</h1>
+            <h1>Temples Near Us</h1>
+            <div class="temples-container">
+                <div class="temple-section1 temple-section">
+                    <div class="img-and-info">
+                        <img id="temple1-img" src="https://via.placeholder.com/300" alt="">
+                        <div class="accordian">
+                            <div class="temple-info">
+                                <button type="button" class="accordian-button">
+                                    <h3><span id="temple1-name"></span></h3>
+                                </button>
+                                <div class="accordian-content">
+                                    <h4>Location</h4>
+                                    <p id="temple1-location"></p>
+                                    <h4>Phone</h4>
+                                    <p id="temple1-phone"></p>
+                                    <h4>email</h4>
+                                    <p id="temple1-email"></p>
+                                    <h4>Services</h4>
+                                    <ul id="temple1-services"></ul>
+                                    <h4>History</h4>
+                                    <ul id="temple1-history"></ul>
+                                    <h4>Schedule</h4>
+                                    <ul>
+                                        <li>
+                                            <h5>Temple Closures</h5>
+                                            <ul id="temple1-closures"></ul>
+                                        </li>
+                                        <li>
+                                            <h5>Dedication</h5>
+                                            <p id="temple1-dedication"></p>
+                                        </li>
+                                        <li>
+                                            <h5>Open House</h5>
+                                            <p id="temple1-open-house"></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="temple-section2 temple-section">
+                    <div class="img-and-info">
+                        <img id="temple2-img" src="https://via.placeholder.com/300" alt="">
+                        <div class="accordian">
+                            <div class="temple-info">
+                            <button class="accordian-button" type="button">
+                                <h3><span id="temple2-name"></span></h3>
+                            </button>
+                            <div class="accordian-content">
+                                    <h4>Location</h4>
+                                    <p id="temple2-location"></p>
+                                    <h4>Phone</h4>
+                                    <p id="temple2-phone"></p>
+                                    <h4>email</h4>
+                                    <p id="temple2-email"></p>
+                                    <h4>Services</h4>
+                                    <ul id="temple2-services"></ul>
+                                    <h4>History</h4>
+                                    <ul id="temple2-history"></ul>
+                                    <h4>Schedule</h4>
+                                    <ul>
+                                        <li>
+                                            <h5>Temple Closures</h5>
+                                            <ul id="temple2-closures"></ul>
+                                        </li>
+                                        <li>
+                                            <h5>Dedication</h5>
+                                            <p id="temple2-dedication"></p>
+                                        </li>
+                                        <li>
+                                            <h5>Open House</h5>
+                                            <p id="temple2-open-house"></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="temple-section3 temple-section">
+                    <div class="img-and-info">
+                        <img id="temple3-img" src="https://via.placeholder.com/300" alt="">
+                        <div class="accordian">
+                            <div class="temple-info">
+                                <button type="button" class="accordian-button">
+                                    <h3><span id="temple3-name"></span></h3>
+                                </button>
+                                <div class="accordian-content">
+                                    <h4>Location</h4>
+                                    <p id="temple3-location"></p>
+                                    <h4>Phone</h4>
+                                    <p id="temple3-phone"></p>
+                                    <h4>email</h4>
+                                    <p id="temple3-email"></p>
+                                    <h4>Services</h4>
+                                    <ul id="temple3-services"></ul>
+                                    <h4>History</h4>
+                                    <ul id="temple3-history"></ul>
+                                    <h4>Schedule</h4>
+                                    <ul>
+                                        <li>
+                                            <h5>Temple Closures</h5>
+                                            <ul id="temple3-closures"></ul>
+                                        </li>
+                                        <li>
+                                            <h5>Dedication</h5>
+                                            <p id="temple3-dedication"></p>
+                                        </li>
+                                        <li>
+                                            <h5>Open House</h5>
+                                            <p id="temple3-open-house"></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <div class="temple-section4 temple-section">
+                    <div class="img-and-info">
+                        <img id="temple4-img" src="https://via.placeholder.com/200" alt="">
+                        <div class="accordian">
+                            <div class="temple-info">
+                                <button class="accordian-button" type="button">
+                                    <h3><span id="temple4-name"></span></h3>
+                                </button>
+                                <div class="accordian-content">
+                                    <h4>Location</h4>
+                                    <p id="temple4-location"></p>
+                                    <h4>Phone</h4>
+                                    <p id="temple4-phone"></p>
+                                    <h4>email</h4>
+                                    <p id="temple4-email"></p>
+                                    <h4>Services</h4>
+                                    <ul id="temple4-services"></ul>
+                                    <h4>History</h4>
+                                    <ul id="temple4-history"></ul>
+                                    <h4>Schedule</h4>
+                                    <ul>
+                                        <li>
+                                            <h5>Temple Closures</h5>
+                                            <ul id="temple4-closures"></ul>
+                                        </li>
+                                        <li>
+                                            <h5>Dedication</h5>
+                                            <p id="temple4-dedication"></p>
+                                        </li>
+                                        <li>
+                                            <h5>Open House</h5>
+                                            <p id="temple4-open-house"></p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
         <footer></footer>
+        <script src="js/main.js"></script>
     </body>
 </html>
