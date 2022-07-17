@@ -100,4 +100,22 @@
         margin-left: auto;
         width: 75%;
     }
+
+    .temples-container {
+        width: 100%;
+    }
+
+    .temple-section {
+        width: 75%;
+    }
+
+    .temple-section .img-and-info img {
+        height: 367px;
+        max-width: 580px;
+        width: 100%;
+    }
+    
+    .accordian-button {
+        height: 6rem;
+    }
 }

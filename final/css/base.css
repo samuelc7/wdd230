@@ -321,3 +321,21 @@ main h1 {
     background-color: #eeeeee;
     max-width: 571px;
 }
+
+
+.accordian-content div h5 {
+    margin-bottom: 1px;
+    margin-top: 9px;
+}
+
+.accordian-content div p {
+    padding-left: 20px;
+}
+
+.accordian-content div h5:first-child {
+    margin-top: 3px;
+}
+
+.accordian-content div {
+    padding-left: 10px;
+}
