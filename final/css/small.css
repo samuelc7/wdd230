@@ -262,5 +262,18 @@
         font-size: 15px;
     }
 
-    
+    .amenities p {
+        font-size: 10px;
+    }
+
+    .today-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #todayImage {
+        margin-right: 66px;
+        margin-top: -30px;
+    }
 }

@@ -124,6 +124,7 @@ function pullForm() {
 }
 
 
+// Fill Weather values
 let key = "36b5b7d508567f61ed1b21c343adb785";
 var cord_url = `https://api.openweathermap.org/geo/1.0/direct?q=washington&limit=2&appid=${key}`;
 let long;
@@ -137,7 +138,6 @@ fetch(cord_url)
         long = jsonObject[0]["lon"];
         lat = jsonObject[0]["lat"];
 
-        // Fill Weather values
         var weather_url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=${key}`;
                 fetch(weather_url)
                     .then((response) => {
@@ -153,7 +153,6 @@ fetch(cord_url)
                         const humidity = main["humidity"];
                         const tempK = main["temp"];
                         const temp = Math.round(1.8*(tempK-273) + 32);
-                        const windSpeed = wind["speed"];
 
                         let todaysIcon = document.getElementById("todayImage");
                         let todaysTemp = document.getElementById("todayTemp");
@@ -166,4 +165,61 @@ fetch(cord_url)
                         todaysHumidity.innerText = humidity;
                     });
                 })
-                
+// Fill in the 3 day forecast
+
+fetch(cord_url)
+    .then((response) => {
+    return response.json();
+})
+    .then((jsonObject) => {
+        long = jsonObject[0]["lon"];
+        lat = jsonObject[0]["lat"];
+
+        var forecastUrl = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${long}&appid=${key}`;
+        fetch(forecastUrl)
+            .then((res) => {
+                return res.json();
+            })
+            .then((jsonObject) => {
+                var dayCounter = 0;
+
+                for (var i = 0; i < 40; i++) {
+                    if (dayCounter < 3) {
+                        var curr = jsonObject['list'][i];
+                        if (curr["dt_txt"].includes("12:00:00")) {
+                            console.log(curr);
+
+                            const weather = curr["weather"][0];
+                            const main = curr["main"];
+                            const wind = curr["wind"];
+
+                            const icon = weather["icon"];
+                            console.log(icon);
+                            const desc = weather["description"].charAt(0).toUpperCase() +  weather["description"].substring(1, weather["description"].length);
+                            const humidity = main["humidity"];
+                            const tempK = main["temp"];
+                            const temp = Math.round(1.8*(tempK-273) + 32);
+                            const day = curr["dt_txt"].substring(0, 10);
+
+                            const id = "day" + `${dayCounter + 1}`;
+
+                            let dateElement = document.getElementById(id+"Date");
+                            let imgElement = document.getElementById(id+"Icon");
+                            let tempElement = document.getElementById(id+"Temp");
+                            let conditionElement = document.getElementById(id+"Condition");
+                            let humidityElement = document.getElementById(id+"Humidity");
+
+                            dateElement.innerHTML = day;
+                            imgElement.src = `https://openweathermap.org/img/wn/${icon}@2x.png`;
+                            tempElement.innerText = temp;
+                            conditionElement.innerText = desc;
+                            humidityElement.innerText = humidity;
+                            
+                            dayCounter++;
+                        }
+                    }
+                }
+            })
+
+
+    })

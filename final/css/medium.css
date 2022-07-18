@@ -160,4 +160,8 @@
         width: 100%;
     }
 
+    .amenities p {
+        font-size: 15px;
+    }
+
 }
