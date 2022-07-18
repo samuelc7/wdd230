@@ -480,6 +480,7 @@ main h1 {
     margin-top: 15px;
     border-radius: 9rem;
     padding-left: 1rem;
+    width: 100%;
 }
 
 .class-container .circle p {

@@ -234,5 +234,35 @@
         width: 75%;
     }
 
+    .class-container {
+        flex-direction: column;
+    }
+
+    .circle img {
+        max-width: 300px;
+    }
+
+    .class-container .circle p {
+        border-bottom: #a1a1a1 solid 1px;
+        text-align: center;
+        padding-bottom: 1rem;
+        margin-left: 0px;
+    }
+
+    .class-container p {
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 15px;
+    }
+
+    .class-container div:last-child {
+        margin-top: 0px;
+        border-left: none;
+    }
+
+    h1 {
+        font-size: 15px;
+    }
+
     
 }
