@@ -243,9 +243,7 @@
     }
 
     .class-container .circle p {
-        border-bottom: #a1a1a1 solid 1px;
-        text-align: center;
-        padding-bottom: 1rem;
+        padding: 5px;
         margin-left: 0px;
     }
 

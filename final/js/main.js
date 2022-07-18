@@ -118,3 +118,37 @@ document.querySelectorAll(".accordian-button").forEach(button => {
         }
     });
 });
+
+function pullForm() {
+    window.location.replace("./reservation.html");
+}
+
+
+// Fill Weather values
+let key = "36b5b7d508567f61ed1b21c343adb785";
+var weather_url = `https://api.openweathermap.org/data/2.5/weather?lat=38.9&lon=77&appid=${key}`;
+        fetch(weather_url)
+            .then((response) => {
+                return response.json();
+            })
+            .then((jsonObject) => {
+                const weather = jsonObject["weather"][0];
+                const main = jsonObject["main"];
+                const wind = jsonObject["wind"];
+
+                const icon = weather["icon"];
+                const desc = weather["description"].charAt(0).toUpperCase() +  weather["description"].substring(1, weather["description"].length);
+                const humidity = main["humidity"];
+                const tempK = main["temp"];
+                const temp = Math.round(1.8*(tempK-273) + 32);
+                const windSpeed = wind["speed"];
+
+                let todaysIcon = document.getElementById("todayImage");
+                let todaysTemp = document.getElementById("todayTemp");
+                let todayHumidity = document.getElementById("todayCondition");
+
+                todaysIcon.src = icon;
+            });
+
+
+

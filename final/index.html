@@ -30,52 +30,67 @@
         <main>
             <div class="content-container">
                 <div class="section1">
-                    <img src="https://via.placeholder.com/300" alt="placeholder" width="300" height="300">
+                    <img src="images/qui-nguyen-giL2fHNr3Lc-unsplash.jpg" alt="placeholder" width="300" height="300">
                     <div class="book-and-amenities">
-                        <button>Book Now</button>
+                        <button onclick="pullForm()">Book Now</button>
                         <div class="amenities">
                             <h2>Amenities</h2>
-                            <p>Text here</p>
+                            <p>Family history consultation and family ordinance card service</p>
+                            <p>WiFi high-speed internet access and smart TVs</p>
+                            <p>Indoor and Outdoor pool</p>
+                            <p>Exercise/workout room</p>
+                            <p>Free Breakfast</p>
+                            <p>Free Parking</p>
+                            <p>Temple Shuttle</p>
                         </div>
                     </div>
                 </div>
                 <div class="section2">
                     <h2>Specialized Services</h2>
                     <div class="ss-row">
-                        <img src="https://via.placeholder.com/200" alt="placeholder">
+                        <img src="images/claudio-schwarz-B2ZQeEBvr64-unsplash.jpg" alt="placeholder">
                         <div>
-                            <h3>Free Changin Rooms</h3>
-                            <p>Info about Free Changing Rooms</p>
+                            <h3>Free Locker Rooms</h3>
+                            <p>As guests here at the Temple Inn & Suites, you will have access to our spacious locker rooms.</p>
+                            <p></p>
                         </div>
                     </div>
                     <div class="ss-row">
-                        <img src="https://via.placeholder.com/200" alt="placeholder">
+                        <img src="images/pro-church-media-2DTE3ePfnD8-unsplash.jpg" alt="placeholder">
                         <div>
                             <h3>Free Playroom for Children</h3>
-                            <p>Info about Free Playroom for Children</p>
+                            <p>We know that it can be a pain trying to find a babysitter or someone to look after the kids 
+                                when wanting to attend temple sessions. That is why we run a little DayCare here at the Temple 
+                                Inn & Suites. Your kids can have fun playing with all the toys in the playroom while you attend temple sessions.</p>
                         </div>
                     </div>
                     <div class="ss-row">
-                        <img src="https://via.placeholder.com/200" alt="placeholder">
+                        <img src="images/thomas-william-OAVqa8hQvWI-unsplash.jpg"placeholder">
                         <div>
                             <h3>Reception Hall</h3>
-                            <p>Info about Reception Hall</p>
+                            <p>Looking for a place to celebrate?</p>
+                            <p>The Reception Hall at Temple Inn & Suites is a great place to have your wedding ceremony and celebration.</p>
+                            <p>View more information about the Reception Hall <a href="./reception.html">here.</a></p>
                         </div>
                     </div>
                     <div class="ss-row">
-                        <img src="https://via.placeholder.com/200" alt="placeholder">
+                        <img src="images/qui-nguyen-S6atLH5Rf0U-unsplash.jpg" alt="placeholder">
                         <div>
                             <h3>24/7 Soda Bar</h3>
-                            <p>Info about 24/7 Soda bar</p>
+                            <p>Enjoy our 24/7 Soda Bar!</p>
+                            <p>We serve the classics - Rootbeer, DP, Pepsi, and more.</p>
+                            <p>Guests have access to this spot where they can have fun listening to good music all while drinking their favorite soda.</p>
                         </div>
                     </div>
                 </div>
                 <div class="section3">
                     <div class="temple-container">
-                        <img src="https://via.placeholder.com/250" alt="placeholder">
+                        <img src="images/washington_dc_mormon_temple.jpeg" alt="placeholder">
                         <div>
                             <h3>Washington D.C. Temple</h3>
-                            <p>Info about Washington D.C. Temple</p>
+                            <p>The Washington D.C. Temple is the nearest temple to the Templ Inn & Suites. It is only an 18 minute drive from the hotel.</p>
+                            <p>This would be the perfect Hotel for anyone looking to attend the D.C. Temple.</p>
+                            <p>View <a href="./temple.html">here</a> for more information about surrounding temples.</p>
                         </div>
                     </div>
                     <div class="contact-us-container">
@@ -92,6 +107,14 @@
                 <div class="section4">
                     <div class="todays-weather">
                         <h3>Todays Weather</h3>
+                        <div class="today-container">
+                            <img id="todayImage" src="https://via.placeholder.com/150" alt="">
+                            <div>
+                                <p>Temperature: <span id="todayTemp"></span></p>
+                                <p>Condition: <span id="todayCondition"></span></p>
+                                <p>Humidity: <span id="humidity"></span></p>
+                            </div>
+                        </div>
                     </div>
                     <div class="forecast">
                         <h3>3 Day Forecast</h3>
