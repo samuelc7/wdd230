@@ -213,13 +213,14 @@ header li a:hover {
 .section4 .todays-weather {
     width: 15%;
     height: 19rem;
-    border: red solid 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     margin-right: 2%;
     padding: 1rem;
 }
 
 .section4 .todays-weather img {
     width: 100%;
+    margin-top: -45px;
 }
 
 .section4 .todays-weather p {
@@ -233,7 +234,7 @@ header li a:hover {
 
 .section4 .forecast {
     width: 60%;
-    border: red solid 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     padding: 1rem;
     padding-top: 0px;
 }
@@ -458,7 +459,7 @@ main h1 {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    border: #333333 solid 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     padding-right: 5rem;
     padding-left: 5rem;
     padding-top: 1rem;
