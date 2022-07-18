@@ -456,3 +456,45 @@ main h1 {
 .reception-hall-container img {
     width: 800px;
 }
+
+.missonary-page-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.class-container {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border: #333333 1px solid;
+    margin-top: 1rem;
+    padding: .5rem;
+}
+
+.circle img {
+    margin-top: 15px;
+    border-radius: 9rem;
+    padding-left: 1rem;
+}
+
+.class-container .circle p {
+    margin-left: 8rem;
+}
+
+.class-container p {
+    margin-left: 10rem;
+    font-size: 20px;
+}
+
+.class-container div:last-child {
+    margin-top: 3rem;
+    border-left: #a1a1a1 solid 1px;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+}
+
