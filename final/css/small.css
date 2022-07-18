@@ -150,6 +150,10 @@
         margin-left: -2px;
     }
 
+    .section4 .forecast .days div {
+        margin: 2px;
+    }
+
     .temples-container {
         display: flex;
         flex-direction: column;
