@@ -204,5 +204,23 @@
         margin-right: -4rem;
     }
 
+    .services-container {
+        width: 78%;
+    }
+
+    .services-container .ss-row img {
+        width: 8rem;
+    }
+
+    .services-container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .services-container .ss-row {
+        width: 100%;
+    }
+
+
     
 }

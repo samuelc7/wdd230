@@ -417,3 +417,28 @@ main h1 {
     content:" *";
     color: red;
 }
+
+.services-container {
+    width: 54%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    border: #333333 solid 1px;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-top: 1rem;
+}
+
+.reception-container, .missonary-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.reception-container img, .missonary-container img {
+    width: 100%;
+    margin-right: 5rem;
+    width: 447px;
+    max-height: 500px;
+}

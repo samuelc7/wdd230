@@ -128,4 +128,18 @@
         left: 34%
     }
 
+    .services-container .ss-row img {
+        width: 11rem;
+    }
+
+    .services-container .ss-row {
+        margin-left: -2rem;
+        margin-right: -2rem;
+    }
+
+    .services-container {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
 }
