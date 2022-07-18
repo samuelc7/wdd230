@@ -442,3 +442,17 @@ main h1 {
     width: 447px;
     max-height: 500px;
 }
+
+.reception-hall-container {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+
+.reception-hall-container img {
+    width: 800px;
+}

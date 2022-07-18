@@ -205,7 +205,7 @@
     }
 
     .services-container {
-        width: 78%;
+        width: 70%;
     }
 
     .services-container .ss-row img {
@@ -221,6 +221,18 @@
         width: 100%;
     }
 
+
+    .reception-hall-container img {
+        width: 300px;
+    }
+
+    .reception-hall-container h1 {
+        font-size: 20px;
+    }
+
+    .reception-hall-container {
+        width: 60%;
+    }
 
     
 }
