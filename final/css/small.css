@@ -17,7 +17,7 @@
     }
 
     header ul {
-        width: 70%;
+        width: 82%;
     }
 
     header li img {
@@ -296,7 +296,11 @@
     header li img {
         width: 50px;
         height: 40px;
-        margin-left: 1rem;
-        margin-right: -17px;
+        margin-left: -1rem;
+        margin-right: 5px;
+    }
+
+    .active {
+        border-bottom: none;
     }
 }
