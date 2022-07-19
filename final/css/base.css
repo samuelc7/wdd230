@@ -270,9 +270,9 @@ header li a:hover {
 footer {
     margin-top: 6rem;
     background-color: #f1f1f1;
-    height: 5rem;
+    height: 7rem;
     border-top: 1px solid #bfd2e0;
-
+    text-align: center;
 }
 
 .hamburger-menu {
@@ -559,4 +559,8 @@ main h1 {
     background-color: #f1f1f1;
     box-shadow: none;
     padding: 0px;
+}
+
+.footer-small {
+    font-size: 12px;
 }
