@@ -220,17 +220,3 @@ fetch(cord_url)
 
 
     });
-
-// // Set active header element 
-// let links = document.querySelectorAll("header ul li a");
-// links.forEach(link => {
-//     link.addEventListener("click", () => {
-//         let activeNow = document.querySelector("header ul li a .active");
-//         console.log(activeNow);
-//         let change = activeNow.className;
-        
-//         activeNow.className = change.replace("active", "");
-//         link.className += "active";
-        
-//     });
-// });
