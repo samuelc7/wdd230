@@ -24,6 +24,9 @@ function showMenu() {
     // Make sure that the menu is displayed
     let container = document.querySelector(".hamburger-menu");
     container.style.display = "block";
+    container.style.position = "absolute";
+    container.style.top = "4rem";
+    container.style.left = "5rem";
 
     let toShow = document.querySelectorAll("header li");
     toShow.forEach( node => { node.style.display = "block"});
