@@ -220,3 +220,5 @@ fetch(cord_url)
 
 
     });
+
+const mapCreds = "AIzaSyCe1zyF4AAdCuGxn-h-0x-R1eUSRlfFR4A";

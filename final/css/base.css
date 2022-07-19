@@ -564,3 +564,7 @@ main h1 {
 .footer-small {
     font-size: 12px;
 }
+
+.location iframe {
+    width: 100%;
+}
