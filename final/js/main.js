@@ -187,14 +187,11 @@ fetch(cord_url)
                     if (dayCounter < 3) {
                         var curr = jsonObject['list'][i];
                         if (curr["dt_txt"].includes("12:00:00")) {
-                            console.log(curr);
-
                             const weather = curr["weather"][0];
                             const main = curr["main"];
                             const wind = curr["wind"];
 
                             const icon = weather["icon"];
-                            console.log(icon);
                             const desc = weather["description"].charAt(0).toUpperCase() +  weather["description"].substring(1, weather["description"].length);
                             const humidity = main["humidity"];
                             const tempK = main["temp"];
@@ -219,7 +216,21 @@ fetch(cord_url)
                         }
                     }
                 }
-            })
+            });
 
 
-    })
+    });
+
+// // Set active header element 
+// let links = document.querySelectorAll("header ul li a");
+// links.forEach(link => {
+//     link.addEventListener("click", () => {
+//         let activeNow = document.querySelector("header ul li a .active");
+//         console.log(activeNow);
+//         let change = activeNow.className;
+        
+//         activeNow.className = change.replace("active", "");
+//         link.className += "active";
+        
+//     });
+// });

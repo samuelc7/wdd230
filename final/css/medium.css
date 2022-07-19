@@ -166,4 +166,22 @@
         font-size: 15px;
     }
 
+    .logo img {
+        margin-right: -9px;
+        width: 78px;
+        margin-top: 5px;
+    }
+
+    header li img {
+        width: 50px;
+        height: 40px;
+        margin-left: 1rem;
+        margin-right: -40px;
+    }
+
+    header ul {
+        width: 90%;
+    }
+
+
 }

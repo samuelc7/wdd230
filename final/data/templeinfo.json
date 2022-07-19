@@ -2,7 +2,7 @@
     "temples" : [
         {
             "name" : "Washington D.C.",
-            "img" : "./images/washington_dc_mormon_temple.jpeg",
+            "img" : "./images/washington_dc_mormon_temple_600x400.jpeg",
             "address" : {
                 "street" : "9900 StoneyBrook Dr",
                 "city state" : "Kensington MD 20895-3199",
@@ -43,7 +43,7 @@
         },
         {
             "name" : "Richmond",
-            "img" : "./images/richmond_virginia_temple_groundbreaking.jpeg",
+            "img" : "./images/richmond_virginia_temple_groundbreaking_1_600x400.jpeg",
             "address" : {
                 "street" : "10915 Staples Mill Rd",
                 "city state" : "Glen Allen VA 23060",
@@ -76,7 +76,7 @@
         },
         {
             "name" : "Raleigh North Carolina",
-            "img" : "./images/raleigh_north_carolina_temple.jpeg",
+            "img" : "./images/raleigh_north_carolina_temple_600x400.jpeg",
             "address" : {
                 "street" : "574 Bryan Dr",
                 "city state" : "Apex NC 27502-4127",
@@ -127,7 +127,7 @@
         },
         {
             "name" : "Philadelphia Pennsylvania",
-            "img" : "./images/philadelphia_pennsylvania_temple_exterior.jpeg",
+            "img" : "./images/philadelphia_pennsylvania_temple_exterior_600x400.jpeg",
             "address" : {
                 "street" : "1739 Vine St",
                 "city state" : "Philadelphia PA 19103",
